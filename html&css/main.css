@@ -1,0 +1,13 @@
+p{
+
+    color: gray;
+    font-size: 40px;
+}
+.aa{
+    background-color:white;
+      background-image: url('../css/pexels-irina-iriser-1590549.jpg');  
+    background-repeat: no-repeat;    
+}
+.bb{
+    background-color: red;
+}
