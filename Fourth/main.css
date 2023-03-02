@@ -1,0 +1,87 @@
+.a{
+    background-color: #eee;
+    color: black;
+    /* shadow => text :h-shadow v-shadow blur color */
+    text-shadow: 0 0 0 red;
+    /* text-align: center; */
+    /* text-align: right; */
+    /* direction: rtl; */
+    vertical-align: top;
+}
+/* ------------------------------------shadow */
+/* -----------text align-------------- */
+/* ---------alt style------------ */
+.b{
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+}
+a{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.c{
+    text-transform: capitalize;
+}
+.d{
+    text-transform: uppercase;
+}
+/* ------text transform ------control links-------------- */
+.e{
+    background-color: #eee;
+    letter-spacing: 2px;
+    text-indent: 100px;
+    /* text indent is taking space right or left - or + */
+}
+.f{
+    line-height: 1.6;
+}
+.g{
+    word-spacing: 10px;
+}
+.h{
+    background-color:#eee;
+    width: 300px;
+    white-space: nowrap;
+    /* white-space: normal; */
+
+}
+.i{
+    width: 300px;
+    background-color: #eee;
+    display: block;
+    word-break: break-all;
+    /* word-break: break-word; */
+
+}
+.j{
+    background-color: #eee;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.j:hover{
+    overflow: visible;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.k{
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    border: 2px solid red;
+}
+.k p{
+    border : 2px solid;
+    border-color: inherit;
+    padding: inherit;
+}

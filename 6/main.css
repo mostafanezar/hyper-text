@@ -1,0 +1,64 @@
+div{
+background-color: #ddd;
+padding: 10px;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two{
+    font-family: 'Times New Roman', Times, serif;
+}
+.three{
+    font-family:'Courier New', Courier, monospace ;
+}
+.four{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.six{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.eight{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p[class="x"]{
+    text-align: right;
+    font-size: 20px;
+}
+p[class~="x"]{
+    text-align: center;
+}
+p[class^="d"]{
+    text-align: center;
+}
+p[class$="b"]{
+    text-align: center;
+}
+p[class*="b"]{
+    text-align: center;
+}
+p[class|="test"]{
+    text-align: center;
+    font-style: oblique;
+    /* color: initial; */
+}
+div.intial{
+    color: red;
+}
+h1{
+    color: initial;
+}
+h2{
+    color: inherit;
+}
+.intial{
+    /* background-image:url(../secound/icons8-globe-50.png) ; */
+    /* background-repeat: repeat-x; */
+    /* background-image: linear-gradient(red ,green ,blue ,yellow ,orange); */
+    /* background-image: linear-gradient(to left bottom, red 50% ,yellow 50%); */
+    /* to top right 
+       44deg  */
+       background-image: url(../secound/icons8-globe-50.png),url(../secound/87390.png);
+       background-repeat: no-repeat;
+       background-position: right bottom;
+}
+/* fonts.google.com */

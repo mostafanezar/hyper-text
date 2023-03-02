@@ -1,0 +1,35 @@
+.a{
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    /* min-width: 400px; */
+    /* max-width: 400px; */
+    /* min-height: 400px; */
+    /* max-height: 400px; */
+}
+.a{
+    background-color: greenyellow;
+}
+.c{
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+}
+/* --------------------------------------------overflow--------- */
+.b{
+    width: 150px;
+    height: 150px;
+
+
+    background-color: #eee;
+    margin: 20px auto;
+    /* border-radius: 20px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+      overflow: auto;
+      /* overflow-y: hidden; */
+      /* overflow-x: auto; */
+      /* display: inline-block; */
+      
+      
+}
