@@ -1,0 +1,65 @@
+p{
+
+    color:white;
+    font-size: 40px;
+}
+.aa{
+    background-color:white;
+      /* background-image: url('../css/pexels-irina-iriser-1590549.jpg');   */
+    background-repeat: no-repeat;
+    
+}
+.bb{
+    background-color: red;
+    /* padding: 100px; */
+    /* margin: 100px; */
+
+     /* width: 70%;
+   margin: auto; */
+   /* border-width:  20px;
+   border-color: gray yellow;
+   border-style: solid dashed; */
+   border: 10px solid yellow;
+  
+   }
+   .cc{
+    background-color:deeppink;
+    width: 1000px;
+    padding: 10px;
+    border: 10px solid orange;
+    outline: 40px solid yellow; /*not liked */
+    border-radius: 20px;
+    
+
+} .dd{
+  background-color: darkgray;
+  
+}
+.mm{
+ 
+  text-align: center;
+  background-color: orange;
+ 
+}
+span{
+  background-color: red;
+  font-size: 40px;
+ display: block;
+  /* display: inline;
+  display: inline-block; */
+}
+.first{
+  background-color: white;
+  font-size: 40px;
+  margin: 10px 0;
+  /* display: none; */
+  /* visibility: hidden; */
+  
+  
+}
+.secound{
+  background-color: white;
+  font-size: 40px;
+  margin: 10px 0;
+ 
+}
